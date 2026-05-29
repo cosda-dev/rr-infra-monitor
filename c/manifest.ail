@@ -1,0 +1,11 @@
+header:
+  id: SMF://rr.infra.monitor.manifest.v1
+  intent: DECLARE_SCHEMA
+  status: ACTIVE
+  locale: vi-85
+
+manifest:
+  name: rr-infra-monitor
+  role: observability_engine
+  paths:
+    - "engine/rr/infra/monitor/src/lib.rs"
